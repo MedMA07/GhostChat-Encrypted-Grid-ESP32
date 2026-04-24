@@ -379,7 +379,7 @@ Every 500ms in loop():
         ├── Show username (max 10 chars)
         └── Show room status (Lobby / PM)
 ```
-
+---
 ### 4. WebSocket Message Protocol
 
 All messages are JSON. Here are all message types:
@@ -438,7 +438,7 @@ SERVER → CLIENT:
 ║                                      ║
 ╚══════════════════════════════════════╝
 ```
-
+---
 ### Chat Screen
 ```
 ╔══════════════════════════════════════════════════════╗
@@ -461,7 +461,7 @@ SERVER → CLIENT:
 ║          ║  Type a message...                  [ ➤ ] ║
 ╚══════════╩═══════════════════════════════════════════╝
 ```
-
+---
 ### TFT Display (128×160 — Landscape)
 ```
 ┌────────────────────────────┐
@@ -635,4 +635,4 @@ This project is open source. Feel free to use, modify, and build on it — just 
 **⭐ If this project helped you, don't forget to star the repository! ⭐**
 
 </div>
-
+---
