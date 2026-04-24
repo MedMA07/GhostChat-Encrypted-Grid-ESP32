@@ -1,5 +1,14 @@
 # GhostChat-Encrypted-Grid-ESP32
 
+<table width="100%">
+  <tr>
+    </th>
+    <th align="center">
+      <img src="Assets/Principale-Logo.png" width="110px" alt="My Logo"/>
+    </th>
+</table>
+
+<div align="left">
 # 👻 GhostChat — Encrypted Grid | ESP32
 ### `Phase 1 — Single Node`
 
