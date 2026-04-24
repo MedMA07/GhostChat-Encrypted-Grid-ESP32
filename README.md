@@ -9,6 +9,7 @@
 </table>
 
 <div align="left" >
+  --
 # 👻 GhostChat — Encrypted Grid | ESP32
 # `Phase 1 — Single Node`
 
