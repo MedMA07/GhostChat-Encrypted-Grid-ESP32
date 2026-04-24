@@ -4,7 +4,7 @@
   <tr>
     </th>
     <th align="center">
-      <img src="Assets/Principale-Logo.png" width="880px" alt="My Logo"/>
+      <img src="Assets/Principale-Logo.png" width="340px" alt="My Logo"/>
     </th>
 </table>
 
