@@ -515,7 +515,9 @@ ESP32_ChatRoom/
 │   ├── User session management
 │   ├── Message routing logic
 │   └── HTML/CSS/JS  (embedded as PROGMEM string)
-│
+├── 📁 Assets/                              # Images and visual resources
+│   ├── Principale-Logo.png                    # University main logo
+|
 └── README.md              ← This file
 ```
 
