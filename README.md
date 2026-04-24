@@ -60,6 +60,27 @@ This is **Part 1** of a 2-part project. Part 2 will expand this into a **multi-r
 
 ---
 
+## 📁 Project Structure
+
+```
+ESP32_ChatRoom/
+│
+├── 📁 Assets/                              # Images and visual resources
+│   ├── Principale-Logo.png                    # University main logo
+|
+|
+├── ESP32_ChatRoom.ino     ← Main sketch (everything in one file)
+│   ├── Pin definitions
+│   ├── WiFi AP setup
+│   ├── WebSocket server + event handler
+│   ├── TFT display functions
+│   ├── User session management
+│   ├── Message routing logic
+│   └── HTML/CSS/JS  (embedded as PROGMEM string)
+|
+└── README.md              ← This file
+```
+---
 ## ✨ Features (Part 1)
 
 | Feature | Description |
@@ -505,24 +526,6 @@ SERVER → CLIENT:
 
 ---
 
-## 📁 Project Structure
-
-```
-ESP32_ChatRoom/
-│
-├── ESP32_ChatRoom.ino     ← Main sketch (everything in one file)
-│   ├── Pin definitions
-│   ├── WiFi AP setup
-│   ├── WebSocket server + event handler
-│   ├── TFT display functions
-│   ├── User session management
-│   ├── Message routing logic
-│   └── HTML/CSS/JS  (embedded as PROGMEM string)
-├── 📁 Assets/                              # Images and visual resources
-│   ├── Principale-Logo.png                    # University main logo
-|
-└── README.md              ← This file
-```
 
 ---
 
