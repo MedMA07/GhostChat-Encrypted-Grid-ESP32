@@ -439,6 +439,7 @@ SERVER → CLIENT:
 ╚══════════════════════════════════════╝
 ```
 ###--------
+
 ![ESP32_ChatRoom_Access_Room](Assets/ESP32_ChatRoom_Access_Room.png)
 
 ---
