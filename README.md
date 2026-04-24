@@ -1,6 +1,6 @@
 # GhostChat-Encrypted-Grid-ESP32
 
-<table width="400%">
+<table width="100%">
   <tr>
     </th>
     <th align="center">
