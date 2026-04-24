@@ -1,10 +1,10 @@
 # GhostChat-Encrypted-Grid-ESP32
 
-<table width="100%">
+<table width="400%">
   <tr>
     </th>
     <th align="center">
-      <img src="Assets/Principale-Logo.png" width="110px" alt="My Logo"/>
+      <img src="Assets/Principale-Logo.png" width="880px" alt="My Logo"/>
     </th>
 </table>
 
