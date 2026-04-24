@@ -1,4 +1,6 @@
-# GhostChat-Encrypted-Grid-ESP32
+
+# 👻 GhostChat — Encrypted Grid | ESP32
+# `Phase 1 — Single Node`
 
 <table width="100%">
   <tr>
@@ -10,11 +12,10 @@
 
 <div align="left" >
   ---
-# 👻 GhostChat — Encrypted Grid | ESP32
-# `Phase 1 — Single Node`
+
 
 <div align="center" width="340px" >
----
+
 ```
   ██████╗ ██╗  ██╗ ██████╗ ███████╗████████╗ ██████╗██╗  ██╗ █████╗ ████████╗
  ██╔════╝ ██║  ██║██╔═══██╗██╔════╝╚══██╔══╝██╔════╝██║  ██║██╔══██╗╚══██╔══╝
