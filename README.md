@@ -438,7 +438,10 @@ SERVER → CLIENT:
 ║                                      ║
 ╚══════════════════════════════════════╝
 ```
-![US-HC-SR04 Pin ](Assets/ESP32_ChatRoom _ac_page.png)
+###--------
+![ESP32_ChatRoom_Access_Room](Assets/ESP32_ChatRoom_Access_Room.png)
+
+---
 ---
 ### Chat Screen
 ```
@@ -462,7 +465,10 @@ SERVER → CLIENT:
 ║          ║  Type a message...                  [ ➤ ] ║
 ╚══════════╩═══════════════════════════════════════════╝
 ```
-![US-HC-SR04 Pin ](Assets/Test_ESP32_ChatRoom .png)
+###--------
+![Test_ESP32_ChatRoom](Assets/Test_ESP32_ChatRoom.png)
+
+---
 ---
 ### TFT Display (128×160 — Landscape)
 ```
