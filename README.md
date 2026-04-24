@@ -66,7 +66,10 @@ This is **Part 1** of a 2-part project. Part 2 will expand this into a **multi-r
 ESP32_ChatRoom/
 │
 ├── 📁 Assets/                              # Images and visual resources
-│   ├── Principale-Logo.png                    # University main logo
+│   ├── Principale-Logo.png                    #  main logo
+|   ├── ESP32_ChatRoom_Access_Room.png   
+|   ├── Test_ESP32_ChatRoom.png
+|
 |
 |
 ├── ESP32_ChatRoom.ino     ← Main sketch (everything in one file)
