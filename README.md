@@ -12,7 +12,7 @@
 # 👻 GhostChat — Encrypted Grid | ESP32
 ### `Phase 1 — Single Node`
 
-<div align="center">
+<div align="center" width="340px" >
 
 ```
   ██████╗ ██╗  ██╗ ██████╗ ███████╗████████╗ ██████╗██╗  ██╗ █████╗ ████████╗
