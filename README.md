@@ -41,9 +41,12 @@
 
 ---
 
-## 💡 Idea & Concept
+# 💡 Idea & Concept
 
-> ⚠️ **This project was fully designed and architected by me.** The logic, the system structure, the protocol design, the UI concept — everything was thought through before a single line was written. This documentation exists so others can understand the thinking behind it, not just copy-paste code.
+> ⚠️ * The idea, architecture, and design of this project are entirely mine.
+The system logic, communication protocol, UI concept, and overall structure were all planned and thought through by me from scratch.
+The code was generated with the help of AI based on my exact specifications and requirements — every decision, every feature, every detail was defined by me.
+This documentation exists so others can understand the thinking and reasoning behind the project, not just read code.
 
 The idea is simple but powerful:
 
