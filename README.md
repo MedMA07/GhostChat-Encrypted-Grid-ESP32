@@ -157,6 +157,8 @@ ESP32_ChatRoom/
   ⚠️  BLK wired to 3.3V via 220Ω resistor — always ON, no GPIO needed
   ⚠️  If screen shows all white → check RST wiring (GPIO15)
 ```
+---
+---
 
 ### Visual Wiring Layout
 
@@ -214,7 +216,7 @@ https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32
 3. **Tools → Board → ESP32 Arduino → ESP32 Dev Module**
 
 ---
-
+---
 ## 🧠 How It Works — System Logic
 
 ### High-Level Architecture
@@ -248,7 +250,8 @@ https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32
     │   Max: 8 devices   │
     └────────────────────┘
 ```
-
+---
+---
 ### Connection Flow
 
 ```
@@ -286,7 +289,7 @@ User enters the Chat Room ✅
 ---
 
 ## 📊 Algorithm — Step by Step
-
+---
 ### 1. Startup Sequence
 
 ```
@@ -307,9 +310,10 @@ START
   │
   └─► TFT: show IP + waiting screen
 ```
-
+---
+---
 ### 2. WebSocket Event Handler
-
+---
 ```
 ON WS_EVENT_CONNECT (new client):
   ├─► Add client to users map: { id, username="", authenticated=false }
@@ -359,7 +363,8 @@ ON WS_EVENT_DATA (message received):
   └── "ping":
         └── Send: { type: "pong" }
 ```
-
+---
+---
 ### 3. TFT Update Logic
 
 ```
@@ -534,7 +539,7 @@ SERVER → CLIENT:
 > Part 2 takes this system and scales it into a full **multi-node wireless chat mesh**.
 
 ### Architecture
-
+---
 ```
                      ┌──────────────────────────────┐
                      │     ESP32 HUB (Master)        │
@@ -556,7 +561,8 @@ SERVER → CLIENT:
          Local users         Local users        Local users
          (via WiFi)          (via WiFi)         (via WiFi)
 ```
-
+---
+---
 ### Part 2 Features Planned
 
 - 🏠 **Multiple named rooms** — each ESP32 is one room
@@ -567,7 +573,7 @@ SERVER → CLIENT:
 - 📊 **Hub TFT** — global overview: all rooms, all users, all activity
 
 ### RF Packet Structure (Part 2 Preview)
-
+---
 ```cpp
 struct RF_Packet {
     uint8_t  type;          // MSG, ACK, JOIN, LEAVE, PRIVATE
